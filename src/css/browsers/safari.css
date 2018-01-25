@@ -1,0 +1,23 @@
+@media screen and (max-width:505px) and ( -webkit-min-device-pixel-ratio:0 ){
+    /*::i-block-chrome, p.wraper-info-phone{
+        font-family: Helvetica, Arial, sans-serif;
+    }*/
+}
+@media screen and (max-width:505px) and ( -webkit-min-device-pixel-ratio:0 ){
+
+}
+@media screen and (min-width:768px) and ( -webkit-min-device-pixel-ratio:0 ){
+
+}
+@media screen and ( -webkit-min-device-pixel-ratio : 0 ) and (min-width:768px) and (max-width:992px){
+
+}
+@media screen and ( -webkit-min-device-pixel-ratio : 0 ) and (min-width:768px) and (max-width:1200px){
+
+}
+@media screen and (min-width:992px) and (max-width:1200px) and ( -webkit-min-device-pixel-ratio:0 ){
+
+}
+@media screen and (min-width:1200px) and ( -webkit-min-device-pixel-ratio:0 ){
+
+}

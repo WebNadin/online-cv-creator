@@ -1,0 +1,17 @@
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    /*body{
+        font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    }*/
+}
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) and (max-width:620px){
+
+}
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) and (min-width:768px){
+
+}
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) and (min-width:992px){
+
+}
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) and (min-width:1200px){
+
+}
