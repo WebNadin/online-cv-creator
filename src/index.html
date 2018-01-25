@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    <link href="bower/lightbox2/dist/css/lightbox.css" rel="stylesheet">
     <link href="bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/browsers/ie.css"/>
@@ -16,9 +17,29 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
-//= template/main.html
+<div class="main container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        //= template/photo.html
+                    </div>
+                    <div class="col-12">
+                        //= template/profile.html
+                    </div>
+                    <div class="col-12"></div>
+                    <div class="col-12"></div>
+                    <div class="col-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-7">Hello2</div>
+    </div>
+</div>
 <script src="bower/jquery/dist/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script src="bower/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower/lightbox2/dist/js/lightbox.js"></script>
 </body>
 </html>

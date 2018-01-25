@@ -1,3 +1,14 @@
 html, body{
   font-family: $font-stack;
 }
+
+h2 {
+  color:$text-second;
+}
+
+.main {
+  min-width:430px;
+  max-width:1300px;
+}
+
+

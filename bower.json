@@ -15,6 +15,7 @@
     "jquery": "3.*",
     "bootstrap": "*",
     "bootstrap-sass": "3.*",
-    "font-awesome": "*"
+    "font-awesome": "*",
+    "lightbox2": "lightbox#^2.10.0"
   }
 }
