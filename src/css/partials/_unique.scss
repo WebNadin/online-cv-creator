@@ -1,0 +1,35 @@
+
+.cv {
+  padding:4rem;
+  /*min-width:430px;
+  max-width:1300px;*/
+}
+
+/*.figure__modal {
+  border:1px solid $bg-blue;
+  margin:3px;
+  overflow:hidden;
+}*/
+.modal__img {
+  border:1px solid $bg-blue;
+  padding:1rem;
+  overflow:hidden;
+}
+
+
+
+.caption {
+  &__name {
+    font-size:3rem;
+  }
+  &__surname {
+    font-size:3.5rem;
+  }
+}
+
+.photo__figure{
+  /*@media (min-width:$screen-lg) {
+    margin:0 4rem 4rem 4rem;
+  }*/
+}
+
