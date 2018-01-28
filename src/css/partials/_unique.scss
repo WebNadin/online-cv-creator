@@ -1,26 +1,22 @@
 .cv{
-  padding:75px 60px;
-  @media (min-width:$screen-lg) {
-    padding:120px;
-  }
+  padding:75px 30px;
   &__column:first-child{
     padding-right:15px;
   }
 }
-.column {
-  &__item {
+.column{
+  &__item{
     margin-bottom:60px;
   }
 }
 .photo{
   &__figure{
-    margin:0 60px 0 75px;
+    margin:0 67px 0 70px;
   }
 }
-
 .figure{
   &__modal{
-    padding:12px 20px;
+    padding:10px 19px 26px 25px;
   }
 }
 .modal-link{
@@ -28,15 +24,25 @@
     border:1px solid $bg-blue;
     padding:13px;
     overflow:hidden;
+    width:225px;
   }
 }
 .caption{
   color:$text-first;
+  padding-left:0 3px;
   &__name{
-    font-size:3rem;
+    font-size:3.37rem;
+    font-weight:normal;
+    margin:0;
   }
   &__surname{
-    font-size:3.5rem;
+    font-size:3.87rem;
+    line-height:.65;
+    margin: 0 0 7px 0;
+  }
+  &__occupation{
+    font-size:1.48rem;
+    font-weight:bold;
   }
 }
 
