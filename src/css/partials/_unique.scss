@@ -1,22 +1,37 @@
 .cv{
-  padding:75px 30px;
+  padding:75px 38px;
+  margin-bottom:5px;
   &__column:first-child{
-    padding-right:15px;
+    padding-right:25px;
   }
 }
 .column{
   &__item{
-    margin-bottom:60px;
+    margin-bottom:50px;
   }
 }
 .photo{
   &__figure{
-    margin:0 67px 0 70px;
+    margin:0 67px 20px 70px;
+  }
+}
+.profile{
+  &__contact{
+    margin-top:-6px;
+  }
+  &__heading{
+    margin-bottom:10px;
+  }
+  &__text{
+    line-height:1.15;
   }
 }
 .figure{
   &__modal{
-    padding:10px 19px 26px 25px;
+    padding:10px 19px 26px 32px;
+  }
+  &__caption{
+    margin-left:7px;
   }
 }
 .modal-link{
@@ -29,7 +44,7 @@
 }
 .caption{
   color:$text-first;
-  padding-left:0 3px;
+  /*padding-left:3px;*/
   &__name{
     font-size:3.37rem;
     font-weight:normal;
@@ -38,11 +53,50 @@
   &__surname{
     font-size:3.87rem;
     line-height:.65;
-    margin: 0 0 7px 0;
+    margin:0 0 10px 0;
   }
   &__occupation{
-    font-size:1.48rem;
+    font-size:1.45rem;
     font-weight:bold;
+  }
+}
+.contact{
+  &__row{
+    padding:15px 0;
+  }
+  &__heading{
+    margin-bottom:10px;
+  }
+}
+.heading{
+  @extend ._line;
+  @extend ._text-blue;
+  font-size:2.6rem;
+  &__icon{
+    width:70px;
+    height:70px;
+    padding:3px;
+    border:1px solid $bg-blue;;
+  }
+  &__text{
+    display:inline;
+    font-size:2.6rem;
+    &_contact{
+      position:relative;
+      top:3px;
+    }
+  }
+}
+.icon{
+  &__inner{
+    background-color:$bg-blue;
+  }
+  .fa-user{
+    font-size:2.1rem;
+  }
+  .fa-phone{
+    font-size:2.6rem;
+    transform:translateY(7px);
   }
 }
 
