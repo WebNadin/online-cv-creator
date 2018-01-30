@@ -1,29 +1,22 @@
 .cv{
-  padding:75px 38px;
   margin-bottom:5px;
+  padding:75px 38px;
   &__column:first-child{
     padding-right:25px;
   }
 }
 .column{
-  &__item{
+  &__profile, &__photo{
     margin-bottom:50px;
   }
+  &__contact{
+    margin-bottom:15px;
+  }
 }
+/* Photo */
 .photo{
   &__figure{
     margin:0 67px 20px 70px;
-  }
-}
-.profile{
-  &__contact{
-    margin-top:-6px;
-  }
-  &__heading{
-    margin-bottom:10px;
-  }
-  &__text{
-    line-height:1.15;
   }
 }
 .figure{
@@ -44,7 +37,6 @@
 }
 .caption{
   color:$text-first;
-  /*padding-left:3px;*/
   &__name{
     font-size:3.37rem;
     font-weight:normal;
@@ -60,47 +52,73 @@
     font-weight:bold;
   }
 }
+/* end */
+
+/* Contact */
 .contact{
+  &__heading{
+    margin-top:-6px;
+    margin-bottom:30px;
+  }
   &__row{
-    padding:15px 0;
+    padding-bottom:9px;
+  }
+  &__text{
+    font-size:1.25rem;
+    padding-left:15px;
+    margin-top:-2px;
+  }
+}
+/* end */
+
+/* Profile */
+.profile{
+  &__contact{
+    margin-top:-6px;
   }
   &__heading{
     margin-bottom:10px;
   }
+  &__text{
+    line-height:1.15;
+  }
 }
+/* all-mode blocks */
 .heading{
   @extend ._line;
   @extend ._text-blue;
   font-size:2.6rem;
   &__icon{
-    width:70px;
+    border:1px solid $bg-blue;
     height:70px;
     padding:3px;
-    border:1px solid $bg-blue;;
+    width:70px;
   }
   &__text{
-    display:inline;
-    font-size:2.6rem;
-    &_contact{
-      position:relative;
-      top:3px;
-    }
+    display:inline-block;
+    font-size:2.55rem;
+    transform:translateY(2px);
   }
 }
 .icon{
-  &__inner{
+  &__circle{
     background-color:$bg-blue;
   }
-  .fa-user{
-    font-size:2.1rem;
+  .fa{
+    &-user{
+      font-size:2.1rem;
+    }
+    &-phone{
+      font-size:2.6rem;
+      transform:translateY(7px);
+    }
+    &-fa-lightbulb-o{
+      font-size:3rem;
+      transform: translateY(7px);
+    }
   }
-  .fa-phone{
-    font-size:2.6rem;
-    transform:translateY(7px);
-  }
+
+
 }
-
-
-
 
 
