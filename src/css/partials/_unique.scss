@@ -1,8 +1,13 @@
 .cv{
+  background-color:$bg-white;
   margin-bottom:5px;
-  padding:75px 38px;
-  &__column:first-child{
+  max-width:1200px;
+  padding:75px 60px;
+  &__column_left{
     padding-right:25px;
+  }
+  &__column_right {
+    padding:0 15px;
   }
 }
 .column{
@@ -83,6 +88,30 @@
     line-height:1.15;
   }
 }
+/* Skills */
+.skills {
+  &__heading{
+    margin-bottom:24px;
+  }
+}
+.progress-points{
+  text-align:center;
+  padding-bottom:19px;
+  &__heading{
+    font-weight:400;
+    font-size:1.55rem;
+    &_communication{
+      transform:translateY(2px);
+    }
+  }
+  &__line{
+    display:flex;
+    justify-content:space-between;
+    padding:0 44px;
+  }
+}
+/* end */
+
 /* all-mode blocks */
 .heading{
   @extend ._line;
@@ -103,22 +132,18 @@
 .icon{
   &__circle{
     background-color:$bg-blue;
-  }
-  .fa{
-    &-user{
+    .fa-user{
       font-size:2.1rem;
     }
-    &-phone{
+    .fa-phone{
       font-size:2.6rem;
       transform:translateY(7px);
     }
-    &-fa-lightbulb-o{
+    .fa-lightbulb-o{
       font-size:3rem;
-      transform: translateY(7px);
+      transform:translateY(7px);
     }
   }
-
-
 }
 
 
