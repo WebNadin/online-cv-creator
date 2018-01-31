@@ -22,8 +22,6 @@
     }
   }
 }
-
-
 .icon{
   &__circle{
     background-color:$bg-blue;
@@ -43,8 +41,6 @@
     }
   }
 }
-
-
 .list-item{
   .fa{
     font-size:1.4rem;
@@ -58,17 +54,16 @@
     }
     &_third{
       line-height:1.1;
-      margin-bottom:7px;
+      margin-bottom:8px;
     }
   }
   &__text{
     padding-left:2px;
-    line-height: 1.25;
-    font-size: .93rem;
+    line-height:1.26;
+    font-size:.93rem;
+    margin-bottom:6px;
   }
 }
-
-
 .progress-points{
   text-align:center;
   padding-bottom:19px;
