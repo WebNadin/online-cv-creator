@@ -12,14 +12,18 @@
 }
 
 .column{
-  &__profile, &__photo{
+  &_left__profile, &__photo{
     margin-bottom:50px;
   }
-  &__contact{
+  &_left__contact{
     margin-bottom:15px;
   }
-  &__education{
-    margin-bottom:35px;
+  &_right__education{
+    margin-bottom:45px;
+    margin-top:-2px;
+  }
+  &_right__experience{
+    margin-bottom:45px;
   }
 }
 
@@ -107,11 +111,17 @@
 /* Education */
 .education{
   &__heading{
-    margin-bottom:20px;
+    margin-bottom:22px;
   }
 }
 /* end */
 
-
+/* Experience */
+.experience{
+  &__heading{
+    margin-bottom:35px;
+  }
+}
+/* end */
 
 
