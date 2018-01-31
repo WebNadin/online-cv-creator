@@ -1,0 +1,87 @@
+/* all-mode blocks */
+
+.heading{
+  @extend ._line;
+  @extend ._text-blue;
+  font-size:2.6rem;
+  &__icon{
+    border:1px solid $bg-blue;
+    height:70px;
+    padding:3px;
+    width:70px;
+  }
+  &__text{
+    display:inline-block;
+    font-size:2.55rem;
+    transform:translateY(2px);
+    &_education{
+      position:relative;
+      top:-1px;
+      left:10px;
+      margin-right:10px;
+    }
+  }
+}
+
+
+.icon{
+  &__circle{
+    background-color:$bg-blue;
+    .fa-user{
+      font-size:2.1rem;
+    }
+    .fa-phone{
+      font-size:2.6rem;
+      transform:translateY(7px);
+    }
+    .fa-lightbulb-o{
+      font-size:3rem;
+      transform:translateY(7px);
+    }
+    .fa-star{
+      transform:translateY(7px);
+    }
+  }
+}
+
+
+.list-item{
+  .fa{
+    font-size:1.4rem;
+    padding:0 17px 0 12px;
+    transform:translateY(7px);
+  }
+  &__heading{
+    font-size:1.56rem;
+    &_first{
+      margin-right:13px;
+    }
+    &_third{
+      line-height:1.1;
+      margin-bottom:7px;
+    }
+  }
+  &__text{
+    padding-left:2px;
+    line-height: 1.25;
+    font-size: .93rem;
+  }
+}
+
+
+.progress-points{
+  text-align:center;
+  padding-bottom:19px;
+  &__heading{
+    font-weight:400;
+    font-size:1.55rem;
+    &_communication{
+      transform:translateY(2px);
+    }
+  }
+  &__line{
+    display:flex;
+    justify-content:space-between;
+    padding:0 44px;
+  }
+}
