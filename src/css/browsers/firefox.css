@@ -1,0 +1,7 @@
+/*
+*>.caption__name { font-size:3rem; }
+@-moz-document url-prefix () { .caption__name { font-size:3rem; } }
+.caption__name, x:-moz-any-link, x:only-child { font-size:3rem; }
+body:empty .caption__name { font-size:3rem; }
+html>!**!body .caption__name, x:-moz-any-link { font-size:3rem; }
+html>!**!body .caption__name, x:-moz-any-link, x:default { font-size:3rem; }*/
