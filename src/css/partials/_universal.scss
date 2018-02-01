@@ -2,8 +2,6 @@
 
 /* Заголовки разделов */
 .heading{
-  @extend ._line;
-  @extend ._text-blue;
   font-size:2.6rem;
   &__icon{
     border:1px solid $bg-blue;
@@ -14,10 +12,19 @@
   &__text{
     display:inline-block;
     font-size:2.55rem;
-    margin-left:10px;
+    &_profile{
+    }
+    &_experience, &_software{
+      transform:translateY(5px);
+    }
+    &_education, &_experience, &_software{
+      margin-left:10px;
+    }
+    &_software{
+      margin-right:15px;
+    }
   }
 }
-
 /* Иконки заголовков */
 .icon{
   &__circle{
@@ -40,9 +47,12 @@
       font-size:2.4rem;
       transform:translateY(7px);
     }
+    .fa-laptop{
+      font-size:2.6rem;
+      transform:translateY(5px);
+    }
   }
 }
-
 /* Списки правой колонки */
 .list-item{
   .fa{
@@ -67,7 +77,6 @@
     margin-bottom:6px;
   }
 }
-
 /* Прогрессбар в виде кружков */
 .progress-points{
   text-align:center;
