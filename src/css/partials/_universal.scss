@@ -61,13 +61,22 @@
     transform:translateY(7px);
   }
   &__heading{
+    display:flex;
     font-size:1.56rem;
     &_first{
       margin-right:12px;
     }
+    &_second{
+      @media (max-width:$screen-lg) {
+        /*font-size:1.2rem;*/
+        margin-bottom:10px;
+        margin-top:-5px;
+      }
+    }
     &_third{
       line-height:1.1;
       margin-bottom:8px;
+      width:100%;
     }
   }
   &__text{
@@ -91,6 +100,10 @@
   &__line{
     display:flex;
     justify-content:space-between;
-    padding:0 44px;
+    padding:.75rem;
+    @media (min-width:$screen-lg) {
+
+      padding:0 44px;
+    }
   }
 }

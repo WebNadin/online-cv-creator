@@ -7,11 +7,20 @@ $bg-gray:#e6e6e6;
 
 
 /* Медиа-запросы */ //@media (min-width: 1200px) { ... }
-
+//xs: 0,
 /*Нет @media, т.к. это по умолчанию в Bootstrap 4*/ // Экстрамалые девайсы («телефоны», < 576px)
-$screen-xs: 576px; // Малые девайсы («ландшафтные телефоны», >= 576px)
-$screen-sm: 768px; // Средние девайсы («таблетки», >= 768px)
-$screen-md: 992px; // Большие девайсы (десктопы, >= 992px)
-$screen-lg: 1200px; // Экстрабольшие девайсы (большие десктопы, >= 1200px)
+$screen-sm: 576px; // Малые девайсы («ландшафтные телефоны», >= 576px)
+$screen-md: 768px; // Средние девайсы («таблетки», >= 768px)
+$screen-lg: 992px; // Большие девайсы (десктопы, >= 992px)
+$screen-xl: 1200px; // Экстрабольшие девайсы (большие десктопы, >= 1200px)
 
-
+/*// Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px*/
