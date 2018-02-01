@@ -23,13 +23,17 @@
 ._circle{
   height:17px;
   width:17px;
-  @media (max-width:$screen-md) {
+  @media (min-width:$screen-sm) and (max-width:$screen-md) {
+    height:25px;
+    width:25px;
+  }
+  @media (min-width:$screen-md) and (max-width:$screen-lg) {
     height:30px;
     width:30px;
   }
-  @media (max-width:$screen-sm) {
-    height:25px;
-    width:25px;
+  @media (min-width:$screen-xl) {
+    height:17px;
+    width:17px;
   }
 }
 ._text-white{
