@@ -1,11 +1,21 @@
-#  Одностраничное резюме (demo версия)
+#  Online CV-creator
 
-Резюме-портфолио с прогресс-барами, адаптированное под разные устройства
+### Live version - [cvcreator.inf.ua](http://cvcreator.inf.ua/)
 
-Для быстрого запуска проекта скачайте скомпиллированный итог - [по этой ссылке](https://drive.google.com/open?id=1Wwr1H_gAw2pLM4c0BYzVa3u6KAR_FmYQ)
-Затем распакуйте архив и в папке build запустите index.html в браузере.
 
-### При создании проекта использовались:
+### Project was created using:
 
   - Gulp, Bower, HTML5, CSS5, Sass, Bootstrap 4
   - Photoshop, WebStrorm, PerfectPixel, Git
+
+### Gulp processing:
+
+  - SCSS - conveted in CSS, minimized, comments deleted
+  - HTML - minimised, comments deleted
+  - Images - optimized
+  - Written watchers for separate parts
+
+### Deploy:
+
+1) Install all node modules. Enter in console: npm install
+2) Make build. Enter in console: gulp
